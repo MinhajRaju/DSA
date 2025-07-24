@@ -1,6 +1,6 @@
-
 def pivotIndex( nums):
-
+    if not nums:
+        return -1
     total = sum(nums[:len(nums)])
     left_sum = 0
 

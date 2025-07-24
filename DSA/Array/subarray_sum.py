@@ -1,13 +1,11 @@
 def subarraySum( nums, k):
-        
-        freq = {0:1}
 
+        freq = {0:1}            
         prefix = 0
         count = 0
 
         for i in nums:
-            prefix += i
-           
+            prefix += i           
             if (prefix - k) in freq:        
                 count +=freq[prefix - k]
             if prefix in freq:
