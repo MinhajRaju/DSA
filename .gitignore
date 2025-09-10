@@ -1,1 +1,39 @@
-.vs
+# -----------------------------
+# Windows / OS files
+# -----------------------------
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+*.code-workspace
+
+# -----------------------------
+# C++ / compiled files
+# -----------------------------
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+
+# -----------------------------
+# Java / compiled files
+# -----------------------------
+*.class
+bin/
+build/
+*.jar
+
+# -----------------------------
+# Logs and temp files
+# -----------------------------
+*.log
+*.tmp
+gitignore
